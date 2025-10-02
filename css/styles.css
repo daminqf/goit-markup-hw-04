@@ -191,6 +191,11 @@ body {
     overflow: hidden;
 }
 
+.svg-icon {
+    width:64;
+    height:64;
+}
+
 .feature {
     padding: 120px 0;
 }
