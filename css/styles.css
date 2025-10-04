@@ -115,6 +115,7 @@ body {
 }
 
 .hero {
+    max-width: 1440px;
     background-color: #2E2F42;
     color: #FFFFFF;
     padding: 188px 0;
@@ -125,7 +126,7 @@ body {
         ),
         url(../images/background-image.jpg)
     ;
-    background-size: 1440px 600px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
@@ -160,6 +161,7 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-order:focus,
@@ -236,6 +238,9 @@ body {
 }
 
 .feature-svg-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     width:264px;
     height:112px;
     background-color:#F4F4FD ;
@@ -334,9 +339,9 @@ body {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 
-        0px 2px 1px 0px #2E2F4214,
-        0px 1px 1px 0px #2E2F4229;
+        0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-container {
