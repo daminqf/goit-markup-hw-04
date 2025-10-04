@@ -116,6 +116,7 @@ body {
 
 .hero {
     max-width: 1440px;
+    justify-self: center;
     background-color: #2E2F42;
     color: #FFFFFF;
     padding: 188px 0;
@@ -193,9 +194,9 @@ body {
     overflow: hidden;
 }
 
-.svg-icon {
-    width:64;
-    height:64;
+.feature-svg-container .svg-icon {
+    width:64px;
+    height:64px;
 }
 
 .feature {
