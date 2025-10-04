@@ -194,7 +194,7 @@ body {
     overflow: hidden;
 }
 
-.feature-svg-container .svg-icon {
+.svg-icon {
     width:64px;
     height:64px;
 }
