@@ -18,8 +18,20 @@ img {
     display:block;
 }
 
+.box-div {
+    width: 1158px;
+    height: 72px;
+    margin: 0 auto;
+}
+
 .header {
     border-bottom: 1px solid #e7e9fc;
+    width:100%;
+    position:fixed;
+    z-index: 999;
+    background-color: #ffffff;
+    margin: auto;
+    
 }
 
 body {
@@ -401,6 +413,51 @@ body {
     background-color: #2E2F42;
     color: #F4F4FD;
     padding: 100px 0;
+}
+
+.foot-sec {
+    display:flex;
+    gap:120px;
+}
+
+.foot-social-icons-ul {
+    display: flex;
+    gap: 24px;
+    padding: 16px 16px 0px 0px;
+    list-style: none;
+}
+
+.foot-social-icons-li {
+    height: 40px;
+    width: 40px;
+}
+
+.foot-social-icons-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.foot-social-icons-a:hover {
+    background-color: rgba(49, 208, 170, 1);
+}
+
+.foot-social-icons-svg {
+    width: 24px;
+    height: 24px;
+    fill: #f4f4fd;    
+}
+
+.foot-social-text {
+    font-weight: 500;
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
 }
 
 .foot-sec .logo {
